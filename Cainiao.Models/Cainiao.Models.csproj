@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props"
             Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')"/>
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{1CCD115F-4AC3-44FF-9D08-9AB879FBCD3C}</ProjectGuid>
+        <ProjectGuid>{E35D5F33-8EE9-4E9A-8E0C-4FAD2971A844}</ProjectGuid>
         <OutputType>Library</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>Common</RootNamespace>
-        <AssemblyName>Common</AssemblyName>
+        <RootNamespace>Cainiao.Models</RootNamespace>
+        <AssemblyName>Cainiao.Models</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>
@@ -33,23 +33,32 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
-      <Compile Include="AttributeHelper.cs" />
-      <Compile Include="Attributes\ColumnAttribute.cs" />
-      <Compile Include="Attributes\PrimaryKeyAttribute.cs" />
-      <Compile Include="Attributes\TableAttribute.cs" />
-      <Compile Include="PinYinHelper.cs" />
-      <Compile Include="PropertyHelper.cs" />
+        <Reference Include="System"/>
+        <Reference Include="System.Core"/>
+        <Reference Include="System.Data"/>
+        <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
-      <Reference Include="NPinyinPro, Version=0.3.3.0, Culture=neutral, processorArchitecture=MSIL">
-        <HintPath>..\packages\NPinyinPro.0.3.3\lib\net20\NPinyinPro.dll</HintPath>
-      </Reference>
+      <Folder Include="UIModels\" />
+      <Folder Include="VModels\" />
     </ItemGroup>
     <ItemGroup>
-      <None Include="packages.config" />
+      <Compile Include="EmployeeInfo.cs" />
+      <Compile Include="EmpTypeInfo.cs" />
+      <Compile Include="ExpDistributeInfo.cs" />
+      <Compile Include="ExpressInfo.cs" />
+      <Compile Include="ExpressTypeInfo.cs" />
+      <Compile Include="ExpSelfPickInfo.cs" />
+      <Compile Include="MenuInfo.cs" />
+      <Compile Include="ShelfInfo.cs" />
+      <Compile Include="StationInfo.cs" />
+      <Compile Include="UserInfo.cs" />
     </ItemGroup>
     <ItemGroup>
-      <Folder Include="Extensions\" />
+      <ProjectReference Include="..\Common\Common.csproj">
+        <Project>{1ccd115f-4ac3-44ff-9d08-9ab879fbcd3c}</Project>
+        <Name>Common</Name>
+      </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -59,4 +68,5 @@
     <Target Name="AfterBuild">
     </Target>
     -->
+
 </Project>
