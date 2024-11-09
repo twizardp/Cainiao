@@ -37,6 +37,16 @@
       <Compile Include="Attributes\ColumnAttribute.cs" />
       <Compile Include="Attributes\PrimaryKeyAttribute.cs" />
       <Compile Include="Attributes\TableAttribute.cs" />
+      <Compile Include="PinYinHelper.cs" />
+      <Compile Include="PropertyHelper.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <Reference Include="NPinyinPro, Version=0.3.3.0, Culture=neutral, processorArchitecture=MSIL">
+        <HintPath>..\packages\NPinyinPro.0.3.3\lib\net20\NPinyinPro.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+    <ItemGroup>
+      <None Include="packages.config" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
