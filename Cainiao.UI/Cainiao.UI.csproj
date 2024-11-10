@@ -76,5 +76,14 @@
     <ItemGroup>
         <None Include="App.config"/>
     </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Base\" />
+      <Folder Include="Employee\" />
+      <Folder Include="Express\" />
+      <Folder Include="Images\" />
+      <Folder Include="Statistics\" />
+      <Folder Include="UserControls\" />
+      <Folder Include="Utility\" />
+    </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
 </Project>
