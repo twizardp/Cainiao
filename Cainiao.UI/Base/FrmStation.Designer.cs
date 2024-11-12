@@ -39,14 +39,14 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.tbStationNo = new System.Windows.Forms.TextBox();
+            this.tbManager = new System.Windows.Forms.TextBox();
+            this.tbRemark = new System.Windows.Forms.TextBox();
+            this.tbStationName = new System.Windows.Forms.TextBox();
+            this.tbStationAddress = new System.Windows.Forms.TextBox();
+            this.tbPhone = new System.Windows.Forms.TextBox();
+            this.tbPYNo = new System.Windows.Forms.TextBox();
+            this.ckIsRunnign = new System.Windows.Forms.CheckBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
@@ -82,14 +82,14 @@
             this.groupBox1.BackColor = System.Drawing.Color.White;
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.checkBox1);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.textBox7);
-            this.groupBox1.Controls.Add(this.textBox6);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.ckIsRunnign);
+            this.groupBox1.Controls.Add(this.tbRemark);
+            this.groupBox1.Controls.Add(this.tbManager);
+            this.groupBox1.Controls.Add(this.tbStationAddress);
+            this.groupBox1.Controls.Add(this.tbPYNo);
+            this.groupBox1.Controls.Add(this.tbPhone);
+            this.groupBox1.Controls.Add(this.tbStationName);
+            this.groupBox1.Controls.Add(this.tbStationNo);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label5);
@@ -207,73 +207,73 @@
             this.label9.TabIndex = 0;
             this.label9.Text = "请设置站点编码！";
             // 
-            // textBox1
+            // tbStationNo
             // 
-            this.textBox1.Font = new System.Drawing.Font("霞鹜文楷 GB Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox1.Location = new System.Drawing.Point(167, 67);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(320, 31);
-            this.textBox1.TabIndex = 1;
+            this.tbStationNo.Font = new System.Drawing.Font("霞鹜文楷 GB Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.tbStationNo.Location = new System.Drawing.Point(167, 67);
+            this.tbStationNo.Name = "tbStationNo";
+            this.tbStationNo.Size = new System.Drawing.Size(320, 31);
+            this.tbStationNo.TabIndex = 1;
             // 
-            // textBox2
+            // tbManager
             // 
-            this.textBox2.Font = new System.Drawing.Font("霞鹜文楷 GB Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox2.Location = new System.Drawing.Point(167, 144);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(320, 31);
-            this.textBox2.TabIndex = 1;
+            this.tbManager.Font = new System.Drawing.Font("霞鹜文楷 GB Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.tbManager.Location = new System.Drawing.Point(167, 144);
+            this.tbManager.Name = "tbManager";
+            this.tbManager.Size = new System.Drawing.Size(320, 31);
+            this.tbManager.TabIndex = 1;
             // 
-            // textBox3
+            // tbRemark
             // 
-            this.textBox3.Font = new System.Drawing.Font("霞鹜文楷 GB Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox3.Location = new System.Drawing.Point(166, 213);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(766, 72);
-            this.textBox3.TabIndex = 1;
+            this.tbRemark.Font = new System.Drawing.Font("霞鹜文楷 GB Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.tbRemark.Location = new System.Drawing.Point(166, 213);
+            this.tbRemark.Multiline = true;
+            this.tbRemark.Name = "tbRemark";
+            this.tbRemark.Size = new System.Drawing.Size(766, 72);
+            this.tbRemark.TabIndex = 1;
             // 
-            // textBox4
+            // tbStationName
             // 
-            this.textBox4.Font = new System.Drawing.Font("霞鹜文楷 GB Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox4.Location = new System.Drawing.Point(612, 62);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(320, 31);
-            this.textBox4.TabIndex = 1;
+            this.tbStationName.Font = new System.Drawing.Font("霞鹜文楷 GB Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.tbStationName.Location = new System.Drawing.Point(612, 62);
+            this.tbStationName.Name = "tbStationName";
+            this.tbStationName.Size = new System.Drawing.Size(320, 31);
+            this.tbStationName.TabIndex = 1;
             // 
-            // textBox5
+            // tbStationAddress
             // 
-            this.textBox5.Font = new System.Drawing.Font("霞鹜文楷 GB Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox5.Location = new System.Drawing.Point(1067, 52);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(490, 31);
-            this.textBox5.TabIndex = 1;
+            this.tbStationAddress.Font = new System.Drawing.Font("霞鹜文楷 GB Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.tbStationAddress.Location = new System.Drawing.Point(1067, 63);
+            this.tbStationAddress.Name = "tbStationAddress";
+            this.tbStationAddress.Size = new System.Drawing.Size(490, 31);
+            this.tbStationAddress.TabIndex = 1;
             // 
-            // textBox6
+            // tbPhone
             // 
-            this.textBox6.Font = new System.Drawing.Font("霞鹜文楷 GB Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox6.Location = new System.Drawing.Point(612, 144);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(320, 31);
-            this.textBox6.TabIndex = 1;
+            this.tbPhone.Font = new System.Drawing.Font("霞鹜文楷 GB Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.tbPhone.Location = new System.Drawing.Point(612, 144);
+            this.tbPhone.Name = "tbPhone";
+            this.tbPhone.Size = new System.Drawing.Size(320, 31);
+            this.tbPhone.TabIndex = 1;
             // 
-            // textBox7
+            // tbPYNo
             // 
-            this.textBox7.Font = new System.Drawing.Font("霞鹜文楷 GB Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox7.Location = new System.Drawing.Point(1067, 144);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.ReadOnly = true;
-            this.textBox7.Size = new System.Drawing.Size(320, 31);
-            this.textBox7.TabIndex = 1;
+            this.tbPYNo.Font = new System.Drawing.Font("霞鹜文楷 GB Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.tbPYNo.Location = new System.Drawing.Point(1067, 144);
+            this.tbPYNo.Name = "tbPYNo";
+            this.tbPYNo.ReadOnly = true;
+            this.tbPYNo.Size = new System.Drawing.Size(320, 31);
+            this.tbPYNo.TabIndex = 1;
             // 
-            // checkBox1
+            // ckIsRunnign
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(1530, 146);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(115, 36);
-            this.checkBox1.TabIndex = 2;
-            this.checkBox1.Text = "运营中";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.ckIsRunnign.AutoSize = true;
+            this.ckIsRunnign.Location = new System.Drawing.Point(1530, 146);
+            this.ckIsRunnign.Name = "ckIsRunnign";
+            this.ckIsRunnign.Size = new System.Drawing.Size(115, 36);
+            this.ckIsRunnign.TabIndex = 2;
+            this.ckIsRunnign.Text = "运营中";
+            this.ckIsRunnign.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
@@ -571,13 +571,13 @@
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbRemark;
+        private System.Windows.Forms.TextBox tbManager;
+        private System.Windows.Forms.TextBox tbStationAddress;
+        private System.Windows.Forms.TextBox tbPYNo;
+        private System.Windows.Forms.TextBox tbPhone;
+        private System.Windows.Forms.TextBox tbStationName;
+        private System.Windows.Forms.TextBox tbStationNo;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label5;
@@ -586,7 +586,7 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox ckIsRunnign;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label10;
